@@ -1,58 +1,52 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewBag.Title = "Ejercicio10";
+}
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Formulario de registro - Mi web</title>
-</head>
-<body>
-    <h1>Formulario de registro</h1>
+<h1>Formulario de registro</h1>
 
-    <form action="" method="get">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" maxlength="50" />
-        <br /><br />
+<form action="" method="get">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" maxlength="50" />
+    <br /><br />
 
-        <label for="apellido">Apellidos:</label>
-        <input type="text" id="apellido" name="apellido" maxlength="50" />
-        <br /><br />
+    <label for="apellido">Apellidos:</label>
+    <input type="text" id="apellido" name="apellido" maxlength="50" />
+    <br /><br />
 
-        <label>Sexo: </label>
-        <input type="radio" id="hombre" name="hombre" value="hombre" />
-        <label for="hombre">hombre</label>
-        <input type="radio" id="mujer" name="mujer" value="mujer" />
-        <label for="mujer">mujer</label>
-        <br /><br />
+    <label>Sexo: </label>
+    <input type="radio" id="hombre" name="hombre" value="hombre" />
+    <label for="hombre">hombre</label>
+    <input type="radio" id="mujer" name="mujer" value="mujer" />
+    <label for="mujer">mujer</label>
+    <br /><br />
 
-        <label>Correo: </label>
-        <input type="email" id="email" name="email" />
-        <br /><br />
+    <label>Correo: </label>
+    <input type="email" id="email" name="email" />
+    <br /><br />
 
-        <label for="poblacion">Población: </label>
-        <select id="poblacion" name="poblacion">
-            <option value="Alicante">Alicante</option>
-            <option value="Madrid">Madrid</option>
-            <option value="Sevilla">Sevilla</option>
-            <option value="Valencia">Valencia</option>
-        </select>
-        <br /><br />
+    <label for="poblacion">Población: </label>
+    <select id="poblacion" name="poblacion">
+        <option value="Alicante">Alicante</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Valencia">Valencia</option>
+    </select>
+    <br /><br />
 
-        <label for="descripcion">Descripción: </label>
-        <textarea id="descripcion" name="descripcion" rows="7" cols="70"></textarea>
-        <br /><br />
+    <label for="descripcion">Descripción: </label>
+    <textarea id="descripcion" name="descripcion" rows="7" cols="70"></textarea>
+    <br /><br />
 
-        <input type="checkbox" id="chkinfo" name="chkinfo" value="Info" checked />
-        <label for="chkinfo">Deseo recibir información sobre novedades y ofertas</label>
-        <br /><br />
+    <input type="checkbox" id="chkinfo" name="chkinfo" value="Info" checked />
+    <label for="chkinfo">Deseo recibir información sobre novedades y ofertas</label>
+    <br /><br />
 
-        <input type="checkbox" id="chklegal" name="chklegal" value="Legal" />
-        <label for="chklegal">Declaro habler leído y aceptar las condiciones generales del programa y la normativa sobre la protección de datos</label>
-        <br /><br />
+    <input type="checkbox" id="chklegal" name="chklegal" value="Legal" />
+    <label for="chklegal">Declaro habler leído y aceptar las condiciones generales del programa y la normativa sobre la protección de datos</label>
+    <br /><br />
 
-        <input type="submit" name="enviar" value="Enviar" />
-    </form>
+    <input type="submit" name="enviar" value="Enviar" />
+</form>
 
-    <br />
-    <a href="/GuiaHTML">Volver</a>
-</body>
-</html>
+<br />
+<a href="/GuiaHTML">Volver</a>
