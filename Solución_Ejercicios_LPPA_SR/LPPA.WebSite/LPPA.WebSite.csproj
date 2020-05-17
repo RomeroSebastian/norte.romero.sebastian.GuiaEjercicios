@@ -181,6 +181,11 @@
     <Content Include="Views\GuiaCSS\Ejercicio1.cshtml" />
     <Content Include="Views\GuiaCSS\Ejercicio2.cshtml" />
     <Content Include="Views\GuiaCSS\Ejercicio3.cshtml" />
+    <Content Include="Views\GuiaCSS\EjercicioSelectores1.cshtml" />
+    <Content Include="Views\GuiaCSS\EjercicioSelectores2.cshtml" />
+    <Content Include="Views\GuiaCSS\EjercicioSelectores3.cshtml" />
+    <Content Include="Views\GuiaCSS\MaquetaciónDiseñoFijo.cshtml" />
+    <Content Include="Views\GuiaCSS\MaquetaciónDiseñoElástico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
