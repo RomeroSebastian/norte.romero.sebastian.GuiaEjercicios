@@ -25,5 +25,25 @@ namespace LPPA.WebSite.Controllers
         {
             return View();
         }
+        public ActionResult EjercicioSelectores1()
+        {
+            return View();
+        }
+        public ActionResult EjercicioSelectores2()
+        {
+            return View();
+        }
+        public ActionResult EjercicioSelectores3()
+        {
+            return View();
+        }
+        public ActionResult MaquetaciónDiseñoFijo()
+        {
+            return View();
+        }
+        public ActionResult MaquetaciónDiseñoElástico()
+        {
+            return View();
+        }
     }
 }
